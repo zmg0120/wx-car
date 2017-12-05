@@ -1,0 +1,51 @@
+/**index.wxss**/
+.container{
+  background: #eee;
+  position: relative;
+}
+.title {
+  position: absolute;
+  top: 30rpx;
+  border: 1rpx solid #aaa;
+  width: 750rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #aaa;
+}
+
+.carimg{
+  position: relative;
+  padding: 0rpx;
+  margin: 0rpx;
+}
+.carimg image{
+  width: 750rpx;
+}
+.discription1{
+  position: absolute;
+  bottom: 140rpx;
+  left: 310rpx;
+  border-bottom: 1rpx solid #ddd;
+  height: 50rpx;
+  color: #ddd;
+}
+.discription2{
+  position: absolute;
+  bottom: 40rpx;
+  left: 270rpx;
+  border: 1rpx solid #ddd;
+  height: 70rpx;
+  line-height: 70rpx;
+  width: 200rpx;
+  text-align: center;
+  color: #ddd;
+}
+.bottom {
+  background: #ccc;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #888;
+}

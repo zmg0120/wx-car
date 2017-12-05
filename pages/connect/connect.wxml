@@ -1,0 +1,23 @@
+<!--pages/connect/connect.wxml-->
+<view class="map">
+  <view>
+    <image src='/pages/static/map/08.png'></image>
+  </view>
+  <view class='map-address'>
+    <input value='许昌学院' disabled='true'></input>
+  </view>
+  <view class='map-del' bindtap="navigateToMap">
+    <input value="创新创业楼201" disabled='true'></input>
+    <image src='/pages/static/img/location.png'></image>
+  </view>
+</view>
+<view class='phone'>
+  <view class='line'></view>
+  <view class='textphone'>
+    <text>体验中心电话:</text>
+    <view class='mkphone' bindtap="makePhone">
+      <text>0374-2779869</text>     
+      <image src='/pages/static/img/makephone.png'></image>
+    </view>
+  </view>
+</view>

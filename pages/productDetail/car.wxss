@@ -1,0 +1,17 @@
+/* pages/productDetail/car.wxss */
+
+.cardetail input{
+  color: #aaa;
+  border-bottom: 1rpx solid #aaa;
+  line-height: 20rpx;
+  margin-top: 30rpx; 
+  padding: 10rpx;
+}
+
+swiper{
+  height: 500rpx;
+}
+.slide-image {
+  width: 750rpx;
+  height: 500rpx;
+}

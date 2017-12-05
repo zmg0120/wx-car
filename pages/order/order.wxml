@@ -1,0 +1,21 @@
+<!--pages/order/order.wxml-->
+<view class="container">
+  <view class='title'>
+    <text>预约到店亲临体验</text>
+  </view>
+  <view class='carimg'>
+    <image src="/public/cars/7.jpg"></image>
+  </view>
+  <form>
+    <view class="section">
+      <input placeholder="请输入姓名"/>
+    </view>
+    <view class="section">
+      <input type="number" maxlength="11" placeholder="请输入电话号码" />
+    </view>
+    <button bindtap="setPlain">提交预约</button>
+  </form>
+</view>
+ <view class='bottom'>
+    <text>由哎吆嗨提供服务</text>
+  </view>

@@ -1,0 +1,27 @@
+/* pages/type/type.wxss */
+.container{
+  padding: 0rpx;
+  margin: 0rpx;
+}
+
+.product{
+  border-bottom: 1px solid #000;
+  width: 750rpx;
+
+}
+.product span{
+  color: red;
+}
+.product .protype{
+  width: 340rpx;
+  height: 200rpx;
+  float: left;
+  line-height: 200rpx;
+  padding-left: 50rpx;
+}
+
+.product image{
+  width: 340rpx;
+  height: 200rpx;
+  float: right
+}

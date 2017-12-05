@@ -1,0 +1,59 @@
+/* pages/connect/connect.wxss */
+.line {
+  border: 1px solid #aaa;
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+.mkphone {
+  position: relative;
+}
+
+.mkphone image {
+  width: 48rpx;
+  height: 48rpx;
+  position: absolute;
+  right: 50rpx;
+}
+
+.textphone {
+  margin-top: 20rpx;
+}
+
+.textphone text {
+  font-size: 35rpx;
+  margin-left: 20rpx;
+  color: #666;
+  /* border: 1px solid #000; */
+}
+
+.map image{
+  width: 750rpx;
+}
+
+
+.map .map-address{
+  margin-left: 20rpx;
+  font-size: 40rpx;
+  font-weight: bolder;
+  color: #666;
+  margin-top: 50rpx;
+  margin-bottom: 20rpx;
+}
+
+.map-del {
+  position: relative;
+}
+
+.map .map-del input {
+  color: #666;
+  width: 400rpx;
+  margin-left: 20rpx;  
+}
+
+.map .map-del image {
+  width: 56rpx;
+  height: 56rpx;
+  position: absolute;
+  top: 0rpx;
+  right: 40rpx;
+}

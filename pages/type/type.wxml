@@ -1,0 +1,13 @@
+<!--pages/type/type.wxml-->
+<view class='container'>
+  <view class='product' wx:for="{{productInfos}}"  wx:for-item="carIf" id="cars">
+    <view 
+      data-product-id="{{carIf._id}}" 
+      data-product-type="{{carIf.type}}" 
+      data-product-url="{{carIf.url}}" 
+      bindtap="toProductDetail">
+      <view class='protype'><span> | </span> {{carIf.name}}</view>
+      <image src="{{carIf.image}}"></image>
+    </view>
+  </view>
+</view>

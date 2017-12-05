@@ -1,0 +1,22 @@
+<!--pages/productDetail/car.wxml-->
+<view class='cardetail'>
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{car.images}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+
+  <input value='型号：{{car.name}}'></input>
+  <input value='价格: {{car.price}}'></input>
+  <input value='功率: {{car.detail.power}}'></input>
+  <input value='油耗量: {{car.detail.oilWear}}'></input>
+  <input value='加速度: {{car.detail.zeroTo100}}'></input>
+  <input value='最高时速: {{car.detail.topSpeed}}'></input>
+</view>
+
+
+

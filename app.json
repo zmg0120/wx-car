@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/type/type",
+    "pages/order/order",
+    "pages/connect/connect",
+    "pages/productDetail/car",
+    "pages/map/map"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#aaa",
+    "navigationBarTitleText": "微信",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor": "#666",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "推荐",
+        "iconPath": "pages/static/img/home.png",
+        "selectedIconPath": "pages/static/images/home.png"
+      },
+      {
+        "pagePath": "pages/type/type",
+        "text": "所有车型",
+        "iconPath": "pages/static/img/type.png",
+        "selectedIconPath": "pages/static/images/type.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "预约试驾",
+        "iconPath": "pages/static/img/order.png",
+        "selectedIconPath": "pages/static/images/order.png"
+      },
+      {
+        "pagePath": "pages/connect/connect",
+        "text": "联系我们",
+        "iconPath": "pages/static/img/connect.png",
+        "selectedIconPath": "pages/static/images/connect.png"
+      }
+    ]
+  }
+}

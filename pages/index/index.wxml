@@ -1,0 +1,55 @@
+<!--index.wxml-->
+
+<view class="container">
+  <view class='title'>
+      <text>产品展示</text>
+  </view>
+  <view class='carimg' bindtap="toOrder">
+    <image src="/public/cars/1.jpg"></image>
+    <view class='discription1'>
+      <text>运动之名</text>
+    </view>
+    <view class='discription2'>
+      <text>预约试驾</text>
+    </view>
+  </view>
+  <view class='carimg' bindtap="toOrder">
+    <image src="/public/cars/2.jpg" ></image>
+    <view class='discription1'>
+      <text>天性 不羁</text>
+    </view>
+    <view class='discription2'>
+      <text>预约试驾</text>
+    </view>
+  </view>
+  <view class='carimg' bindtap="toOrder">
+    <image src="/public/cars/3.jpg" ></image>
+    <view class='discription1'>
+      <text>一往无前</text>
+    </view>
+    <view class='discription2'>
+      <text>预约试驾</text>
+    </view>
+  </view>
+  <view class='carimg' bindtap="toOrder">
+    <image src="/public/cars/4.jpg" ></image>
+    <view class='discription1'>
+      <text>激情澎湃</text>
+    </view>
+    <view class='discription2'>
+      <text>预约试驾</text>
+    </view>
+  </view>
+  <view class='carimg' bindtap="toOrder">
+    <image src="/public/cars/5.jpg"></image>
+    <view class='discription1'>
+      <text>掣热驱动</text>
+    </view>
+    <view class='discription2'>
+      <text>预约试驾</text>
+    </view>
+  </view>
+</view>
+<view class='bottom'>
+    <text>由哎吆嗨提供服务</text>
+</view>
